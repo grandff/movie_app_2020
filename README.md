@@ -19,3 +19,7 @@ git remote add origin https~~~ 입력
 모든 폴더를 넣기 위해 순서대로
 git add.
 git commit -m "~~~~" 입력
+
+이 후 git push origin master
+
+# Step 3, 4 : React 기초
