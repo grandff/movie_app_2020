@@ -32,3 +32,6 @@ map을 활용해 컴포넌트를 동적으로 생성
 npm i prop-types 를 통해 prop type 설치
 
 이 prop type은 내가 전달받은 props가 내가 원하는 props인지 확인하기 위함
+
+# Step 8
+function을 class로 변경해서 작업

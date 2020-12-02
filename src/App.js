@@ -10,12 +10,22 @@ class App extends React.Component{
   };
 
   add = () => {
-    alert("add");
+    // this.state.count = 1; => wrong
+    // this.setState({count : this.state.count + 1});  => bad
+    this.setState(current => ({count : current.count + 1}));  // good
   };
 
   minus = () => {
-    alert("minus");
+    // this.state.count = -1; => wrong
+    // this.setState({count : this.state.count - 1});  => bad
+    this.setState(current => ({count : current.count - 1})); // good
   };
+
+  /*
+    react는 render function을 refresh 하지 않기 때문에 직접 state를 변경하면 안됨.
+    어차피 동작이 안됨.
+    setState를 통해 state를 변경하고 render를 호출함
+  */
 
   render(){
     return (
