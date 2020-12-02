@@ -23,3 +23,7 @@ git commit -m "~~~~" 입력
 이 후 git push origin master
 
 # Step 3, 4 : React 기초
+남아있는 파일 확인해서 해당 파일로만 작업
+
+# Step 5, 6, 7
+map을 활용해 컴포넌트를 동적으로 생성
