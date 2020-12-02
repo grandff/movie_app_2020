@@ -25,5 +25,10 @@ git commit -m "~~~~" 입력
 # Step 3, 4 : React 기초
 남아있는 파일 확인해서 해당 파일로만 작업
 
-# Step 5, 6, 7
+# Step 5, 6
 map을 활용해 컴포넌트를 동적으로 생성
+
+# Step 7
+npm i prop-types 를 통해 prop type 설치
+
+이 prop type은 내가 전달받은 props가 내가 원하는 props인지 확인하기 위함
