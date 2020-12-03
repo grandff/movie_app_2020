@@ -35,3 +35,16 @@ npm i prop-types 를 통해 prop type 설치
 
 # Step 8
 function을 class로 변경해서 작업
+
+# Step 9
+axios를 통해 데이터 다운로드
+npm install axios 실행
+
+영화 api는 yts의 api 사용
+
+yts 홈페이지 하단의 api로 들어가서 list movie 클릭
+
+https://yts.mx/api/v2/list_movies.json
+이 json을 사용
+참고로 저 url이 자주 바뀌므로 
+https://yts-proxy.now.sh/list_movies.json 이 url로 사용함
