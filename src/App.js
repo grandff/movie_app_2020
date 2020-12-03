@@ -4,6 +4,12 @@ import PropTypes from "prop-types";
 // class component로 변경
 // react component 좋음
 class App extends React.Component{
+
+  constructor(props){
+    super(props);
+    console.log("test1")
+  };
+
   // 변하는 데이터라고 생각하면 편함
   state = {
     count : 0
@@ -19,6 +25,14 @@ class App extends React.Component{
     // this.state.count = -1; => wrong
     // this.setState({count : this.state.count - 1});  => bad
     this.setState(current => ({count : current.count - 1})); // good
+  };
+
+  componentDidMount(){
+    console.log("Rednered");
+  };
+
+  componentDidUpdate(){
+
   };
 
   /*
