@@ -73,3 +73,14 @@ npm install react-router-dom
 src 폴더에 components와 routes 폴더 추가
 
 이전까지 작업한 내용을 다 수정..
+
+
+# 이후 작업물을 위한 참고 URL
+## 공공 데이터 포털
+https://www.data.go.kr/tcs/dss/selectDataSetList.do?dType=API&keyword=&detailKeyword=&publicDataPk=&recmSe=&detailText=&relatedKeyword=&commaNotInData=&commaAndData=&commaOrData=&must_not=&tabId=&dataSetCoreTf=&publicDataPks=&coreDataNm=&sort=&relRadio=&orgFullName=&orgFilter=&org=&orgSearch=&currentPage=5&perPage=10&brm=&instt=&svcType=&kwrdArray=&extsn=JSON&coreDataNmArray=
+https://www.data.go.kr/data/15059126/openapi.do
+https://www.data.go.kr/data/15058578/openapi.do
+
+## IGDB 
+https://www.igdb.com/api
+https://dev.twitch.tv/console/apps
