@@ -65,3 +65,11 @@ script에 deploy 추가
 predeploy까지 넣어서 gh-pages에 올리기전에 빌드하도록 설정함
 
 실행은 npm run deploy
+
+# Step 12
+navigation dom을 만들기 위해 
+npm install react-router-dom
+
+src 폴더에 components와 routes 폴더 추가
+
+이전까지 작업한 내용을 다 수정..
