@@ -48,3 +48,20 @@ https://yts.mx/api/v2/list_movies.json
 이 json을 사용
 참고로 저 url이 자주 바뀌므로 
 https://yts-proxy.now.sh/list_movies.json 이 url로 사용함
+
+# Step 10
+App.js , Movie.js 로 나눠서 작업 
+css까지 완료
+
+# Step 11
+페이지 공유를 위해 github pages 사용
+npm install gh-pages
+
+package.json에서 hompage 설정
+https://{github username}.github.io/{the name of project in github}
+다 소문자여야함
+
+script에 deploy 추가
+predeploy까지 넣어서 gh-pages에 올리기전에 빌드하도록 설정함
+
+실행은 npm run deploy
